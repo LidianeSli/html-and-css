@@ -1,0 +1,70 @@
+<DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Aula 12</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet"
+		type="text/css" href="css/style.css"/>
+		<script>
+			function funcaoMarota(){
+				document.getElementById('quatro').
+				innerHTML="teste";
+			}			
+		</script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Teste</h1>
+		<p>Teste</p>
+		<header>
+			<p>Teste</p>
+		</header>
+		<div class="box-teste"></div>
+		<div id="um"></div>
+		<button type="button" onclick="
+		document.getElementById('um').
+		innerHTML='oi'">Clique</button>
+		<button type="button" onclick="
+		document.getElementById('um').
+		innerHTML=''">Apagar</button>
+		<hr/>
+		<img id="dois" style="width: 100px;" src="https://sistemas.tjam.jus.br/coij/wp-content/uploads/2018/04/1-foto.png"/>
+		<br/>
+		<button onclick="document.getElementById('dois').
+		style='width:50px'">50px</button>
+		<button onclick="document.getElementById('dois').
+		style='width:150px'">150px</button>
+		<button onclick="document.getElementById('dois').
+		src='https://images.askmen.com/1080x540/2019/03/26-052442-man_goes_on_beer_only_diet_loses_25_pounds.jpg'">Deixar melhor</button>
+		<hr/>
+		<p id="tres">HTML</p>
+		<button onclick="document.getElementById('tres').
+		style.fontSize='35px'">Aumentar</button>
+		<hr/>
+		<p id="quatro"></p>
+		<button onclick="funcaoMarota()">Clique</button>
+		<hr/>
+		<button onclick="outra()">5+5</button>
+		<p id="cinco"></p>
+		<hr/>
+		<p id="seis"></p>
+		<script>
+			var x, y, z;
+			x=5;
+			y=5;
+			z=x+y;
+			document.getElementById('seis').
+			innerHTML="5+5="+z;
+		</script>
+		<hr/>
+		<button onclick="alerta()">Alerta</button>
+		<script>
+			function alerta(){
+				alert("Opa!");
+			}
+		</script>
+	</body>
+</html>
+
+
+

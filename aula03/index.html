@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Aula 03</title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<form action="enviar.php"
+		method="POST">
+			<fieldset>
+				<legend>Informações Pessoais</legend>
+				<label for="nome">Nome:</label>
+				<input id="nome" type="text"
+				name="nome" placeholder="Escreva seu nome"/>
+				<br/>
+				<label for="arquivo">Arquivo:</label>
+				<input id="arquivo" type="file"
+				name="arquivo"/>
+				<br/>
+				<label for="idade">Idade</label>
+				<input id="idade" type="number"
+				name="idade"/>
+				<br/>
+				<label for="cor">Cor favorita:</label>
+				<select id="cor" name="cor">
+					<option value="">Escolha</option>
+					<option value="vermelho">Vermelho</option>
+					<option value="verde">Verde</option>
+					<option value="amarelo">Amarelo</option>
+					<option value="rosa">Rosa</option>
+					<option value="azul">Azul</option>
+					<option value="preto">Preto</option>
+				</select>
+				<br/>
+				<label>O que gosta de fazer?</label>
+				<br/>
+				<input id="caminhar" type="checkbox"
+				name="caminhar"/>
+				<label for="caminhar">Caminhar</label>
+				<br/>
+				<input id="desenhar" type="checkbox"
+				name="desenhar"/>
+				<label for="desenhar">Desenhar</label>
+				<br/>
+				<input id="dormir" type="checkbox"
+				name="dormir"/>
+				<label for="dormir">Dormir</label>
+				<br/>
+				<label>Sexo:</label>
+				<input id="masc" type="radio"
+				value="masculino" name="sexo"/>
+				<label for="masc">Masculino</label>
+				<input id="fem" type="radio"
+				value="feminino" name="sexo"/>
+				<label for="fem">Feminino</label>
+				<input id="outros" type="radio"
+				value="outros" name="sexo"/>
+				<label for="outros">Outros</label>
+				<br/>
+				<label for="comentario">
+					Deixe seu comentário
+				</label>
+				<br/>
+				<textarea id="comentario"
+				placeholder="Escreva aqui"></textarea>
+				<br/>
+				<input type="submit" value="Enviar"/>
+				<input type="reset" value="Limpar"/>
+			</fieldset>
+		</form>
+	</body>
+</html>
