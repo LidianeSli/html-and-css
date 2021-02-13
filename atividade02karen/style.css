@@ -1,0 +1,231 @@
+h1{
+	color:#1C1C1C;
+	font-family: Calibri Light;
+	text-align: center;
+	font-size: 14pt;
+	letter-spacing: 0.5px;
+	text-shadow: 0.2px 1px 2px #FFFFFF;
+}
+header{
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	background-color: #B4CDCD;
+	margin: auto;
+	line-height: 200px;
+}
+nav{
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	background-color: #696969;
+	margin: auto;
+	line-height: 50px;
+}
+.conteudo{
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 0.5%;
+}
+.esq{
+	width: 56.7%;
+	height: auto;
+	overflow: hidden;
+	border: solid;
+	float: left;
+	margin-right: 1%;
+}
+.dir{
+	width: 39.1%;
+	height: auto;
+	overflow: hidden;
+	background-color: #B4CDCD;
+	float: left;
+	border: solid;
+	padding: 1%;
+}
+.destaque{
+	width: 100%;
+	height: 501px;
+	background-color: #A9A9A9;
+	text-align: center;
+	line-height: 501px;
+}
+.chamada{
+	width: 49.1%;
+	height: 385px;
+	background-color: #A9A9A9;
+	float: left;
+	margin-top: 1.5%;
+	line-height: 385px;
+}
+.formulario{
+	width: 100%;
+	height: 60px;
+	background-color: #A9A9A9;
+	line-height: 60px;
+}
+.maislidos{
+	width: 100%;
+	height: 430px;
+	background-color: #A9A9A9;
+	margin-top: 1.5%;
+	line-height: 430px;
+}
+.anuncio{
+	width: 48.5%;
+	height: 183px;
+	background-color: #A9A9A9;
+	margin-top: 1.5%;
+	float: left;
+	line-height: 183px;
+}
+footer{
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	overflow: hidden;
+	background-color: #696969;
+	margin: auto;
+	margin-top: 0.5%;
+	line-height: 50px;
+}
+
+@media only screen and (max-width: 750px){
+	header{
+	height: 150px;
+	line-height: 150px;
+	}
+	nav{
+	height: 50px;
+	line-height: 50px;
+	}
+	.conteudo{
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	}
+	.esq{
+	width: 90%;
+	margin-bottom: 1.5%;
+	}
+	.dir{
+	width: 90%;
+	}
+	.destaque{
+	height: 300px;
+	line-height: 300px;
+	}
+	.chamada{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	}
+	.formulario{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	}
+	.maislidos{
+	width: 100%;
+	height: 260px;
+	line-height: 260px;
+	}
+	.anuncio{
+	width: 48.2%;
+	}
+}
+@media only screen and (max-width: 1024px){
+	header{
+	height: 150px;
+	line-height: 150px;
+	}
+	nav{
+	height: 50px;
+	line-height: 50px;
+	}
+	.conteudo{
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	}
+	.esq{
+	width: 99%;
+	margin-bottom: 1.5%;
+	}
+	.dir{
+	width: 97%;
+	}
+	.destaque{
+	height: 300px;
+	line-height: 300px;
+	}
+	.chamada{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	}
+	.formulario{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	}
+	.maislidos{
+	width: 100%;
+	height: 260px;
+	line-height: 260px;
+	}
+	.anuncio{
+	width: 49.2%;
+	height: 100px;
+	line-height: 100px;
+	}
+}
+@media only screen and (max-width: 500px){
+	header{
+	height: 150px;
+	line-height: 150px;
+	}
+	nav{
+	height: 50px;
+	line-height: 50px;
+	}
+	.conteudo{
+	margin-bottom: 1.5%;
+	margin-top: 1.5%;
+	}
+	.esq{
+	width: 98%;
+	margin-bottom: 1.5%;
+	}
+	.dir{
+	width: 96%;
+	}
+	.destaque{
+	height: 300px;
+	line-height: 300px;
+	}
+	.chamada{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	}
+	.formulario{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	}
+	.maislidos{
+	width: 100%;
+	height: 260px;
+	line-height: 260px;
+	}
+	.anuncio{
+	width: 48.2%;
+	height: 100px;
+	line-height: 100px;
+	}
+}
