@@ -1,0 +1,89 @@
+h1{
+	color:#1C1C1C;
+	font-family: Calibri Light;
+	text-align: center;
+	font-size: 14pt;
+	letter-spacing: 0.5px;
+	text-shadow: 0.2px 1px 2px #FFFFFF;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background-color: #B4CDCD;
+	margin: auto;
+	line-height: 200px;
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color: #696969;
+	margin: auto;
+	line-height: 50px;
+}
+.conteudo{
+	width: 1000px;
+	height: 900px;
+	margin: auto;
+	margin-top: 10px;
+}
+.esq{
+	width: 590px;
+	height: 895px;
+	border: solid;
+	float: left;
+	margin-right: 10px;
+	
+}
+.dir{
+	width: 368px;
+	height: 875px;
+	background-color: #B4CDCD;
+	float: left;
+	border: solid;
+	padding: 10px;
+}
+.destaque{
+	width: 590px;
+	height: 500px;
+	background-color: #A9A9A9;
+	text-align: center;
+	line-height: 500px;
+}
+.chamada{
+	width: 290px;
+	height: 385px;
+	background-color: #A9A9A9;
+	float: left;
+	margin-top: 10px;
+	line-height: 385px;
+}
+.formulario{
+	width: 370px;
+	height: 50px;
+	background-color: #A9A9A9;
+	line-height: 50px;
+}
+.maislidos{
+	width: 370px;
+	height: 430px;
+	background-color: #A9A9A9;
+	margin-top: 10px;
+	line-height: 430px;
+}
+.anuncio{
+	width: 179px;
+	height: 183px;
+	background-color: #A9A9A9;
+	margin-top: 10px;
+	float: left;
+	line-height: 183px;
+
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color: #696969;
+	margin: auto;
+	margin-top: 10px;
+	line-height: 50px;
+}
